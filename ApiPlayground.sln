@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CB56DA0F-23CC-42F0-9DAC-96ED06E4FF70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiPlayground.P01.DependencyInjection", "ApiPlayground.P01.DependencyInjection\ApiPlayground.P01.DependencyInjection.csproj", "{DD082535-B811-4B62-849A-52AF9DF1ACB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD082535-B811-4B62-849A-52AF9DF1ACB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD082535-B811-4B62-849A-52AF9DF1ACB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD082535-B811-4B62-849A-52AF9DF1ACB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD082535-B811-4B62-849A-52AF9DF1ACB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DD082535-B811-4B62-849A-52AF9DF1ACB1} = {CB56DA0F-23CC-42F0-9DAC-96ED06E4FF70}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE78759F-830A-4214-8BB8-737765AAE212}
+	EndGlobalSection
+EndGlobal
