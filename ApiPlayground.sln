@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CB56DA0F-23C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiPlayground.P01.DependencyInjection", "src\ApiPlayground.P01.DependencyInjection\ApiPlayground.P01.DependencyInjection.csproj", "{0D5B435B-6FE5-4099-885B-865D0A5A0236}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiPlayground.P02.PersonApi", "src\ApiPlayground.P02.PersonApi\ApiPlayground.P02.PersonApi.csproj", "{AAAC6373-EE86-4D30-B640-972B02974A78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{0D5B435B-6FE5-4099-885B-865D0A5A0236}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D5B435B-6FE5-4099-885B-865D0A5A0236}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D5B435B-6FE5-4099-885B-865D0A5A0236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAAC6373-EE86-4D30-B640-972B02974A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAAC6373-EE86-4D30-B640-972B02974A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAAC6373-EE86-4D30-B640-972B02974A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAAC6373-EE86-4D30-B640-972B02974A78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0D5B435B-6FE5-4099-885B-865D0A5A0236} = {CB56DA0F-23CC-42F0-9DAC-96ED06E4FF70}
+		{AAAC6373-EE86-4D30-B640-972B02974A78} = {CB56DA0F-23CC-42F0-9DAC-96ED06E4FF70}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE78759F-830A-4214-8BB8-737765AAE212}
