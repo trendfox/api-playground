@@ -11,4 +11,6 @@ public class Person
 
     [Required]
     public string LastName { get; set; } = "";
+
+    public Gender? Gender { get; set; }
 }

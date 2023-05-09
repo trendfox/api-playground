@@ -25,9 +25,9 @@ public class PersonController
     {
         var people = new[]
         {
-            ("Maxime", "Muster"),
-            ("Fred", "Rheinold"),
-            ("Irma", "Flux"),
+            ("Maxime", "Muster", Gender.Female),
+            ("Fred", "Rheinold", Gender.Male),
+            ("Irma", "Flux", (Gender?)null),
         };
 
         foreach (var p in people)
@@ -36,6 +36,7 @@ public class PersonController
             {
                 FirstName = p.Item1,
                 LastName = p.Item2,
+                Gender = p.Item3,
             });
         }
     }

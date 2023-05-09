@@ -14,6 +14,7 @@ public class PersonMapper
             Id = other.Id,
             FirstName = other.FirstName,
             LastName = other.LastName,
+            Gender =  other.Gender,
         };
     }
 
@@ -24,6 +25,7 @@ public class PersonMapper
             Id = other.Id,
             FirstName = other.FirstName,
             LastName = other.LastName,
+            Gender = other.Gender,
         };
     }
 }
